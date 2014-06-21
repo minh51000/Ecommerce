@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_dialog" android:layout_margin="10dp" android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" android:layout_marginLeft="30dp" android:text="User" android:textColor="#666666" android:background="@drawable/back_edit" android:drawableRight="@drawable/profile">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUser"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword" android:layout_marginLeft="30dp" android:layout_centerHorizontal="true" android:text="Password" android:textColor="#666666" android:background="@drawable/back_edit" android:drawableRight="@drawable/lock"/>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPass"
+            android:layout_marginTop="30dp"
+            android:text="Login" android:layout_centerHorizontal="true" android:background="@drawable/btn_noti_normal" android:padding="10dp" android:textColor="#f4be0c" android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ActivityEcommerce!</string>
+    <string name="app_name">Ecommerce</string>
+    <string name="message">In order to share this app with your friends, you need to add a valid phone number or a valid email.</string>
+    <string name="loai_sp_1">HDD</string>
+</resources>

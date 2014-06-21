@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_state_bg_pressed" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/logo" android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Register" android:background="@drawable/back_btn" android:layout_margin="10dp" android:textSize="18dp" android:layout_alignLeft="@id/btnRegister"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRegister"
+        android:layout_alignRight="@+id/btnRegister"
+        android:text="Login" android:layout_alignLeft="@+id/btnRegister" android:background="@drawable/back_btn" android:textSize="18dp" android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:text="Skip" android:background="@drawable/back_btn" android:layout_alignLeft="@id/btnRegister" android:layout_alignRight="@id/btnRegister" android:textSize="18dp" android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Logout" android:background="@drawable/back_btn" android:textSize="18dp" android:layout_alignLeft="@id/btnRegister" android:layout_alignRight="@id/btnRegister" android:layout_marginBottom="10dp" android:visibility="invisible" android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" android:textSize="24dp" android:textColor="#f4be0c"/>
+
+</RelativeLayout>

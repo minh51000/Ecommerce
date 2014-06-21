@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" android:maxWidth="10dp" android:maxHeight="20dp" android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:text="Medium Text" android:textColor="#332014" android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/tvPrice"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/pay"
+        android:text="Buy" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTitle"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        android:textColor="#878D10" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgIcon"
+        android:layout_alignLeft="@+id/tvName"
+        android:text="Medium Text"
+        android:textColor="#332014" />
+
+</RelativeLayout>
